@@ -39,8 +39,8 @@ public class PasswordFieldExample2 implements ActionListener{
             f2.setVisible(false);
             f.setVisible(true);
         }
-        l4.setText(l4.getText()+tf.getText());
-        l5.setText(l5.getText()+new String(pf.getPassword()));
+        l4.setText("Username : "+tf.getText());
+        l5.setText("Password : "+new String(pf.getPassword()));
     }
     public void frame(){
         f.setSize(300,300);
